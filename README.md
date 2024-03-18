@@ -7,7 +7,7 @@ It is tailored for the following system build as of March 2024:
 
  - CPU: Intel® Core™ i7-13700KF (Raptor Lake)
  - Motherboard: ASUS Strix B760-i Gaming Wifi
- - RAM: (Kingston) 32GB DDR5 5200
+ - RAM: (Kingston) 64GB DDR5 6000
  - GPU: (Sapphire) Radeon RX 580 8GB
  - NVME: WD_BLACK SN770 1TB
 
