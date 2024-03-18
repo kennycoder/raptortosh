@@ -147,6 +147,7 @@ boot-args contain
 
  since I'm on RX 580. If you are on 5000/6000 series, please add it to your boot-args.
 
+Also, for some reason my iSerices only started working when I connected the rig via Ethernet cable. On WiFi it would just refuse to do anything. After that WiFi is just fine.
   
 ## Credits
 
