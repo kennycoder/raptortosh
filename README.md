@@ -76,8 +76,7 @@ Write down the following generaed values somewhere:
 
 For the ROM I suggest you check your ethernet card's MAC address and use it as your ROM (wihout the colons).
 
-If you MAC address is for example 
-
+If your MAC address is for example 
 > aa:bb:cc:dd:ee:ff
 
 then your rom would be 
@@ -123,6 +122,24 @@ Your USB stick should have the following structure:
 > /com.apple.recovery.boot/BaseSystem.dmg
 
 > /EFI (folder from this repository)
+
+## Bios SETUP
+
+Honestly, I just followed this video [https://www.youtube.com/watch?v=HPHWBOrWDAs] from Technoli.
+
+TL;DR:
+
+- Secure boot: **Custom**
+
+- VT-D: **Enabled**
+- 4G Decoding: **Enabled**
+
+- Fast boot: **Disabled**
+- CSM: **Disabled**
+- UEFI Variable Protection / Password Protection of Variables: **Disabled**
+- IOMMU: **Disabled**
+- Resizable BAR: **Disabled** (Don't have a GPU with that to test with it on)
+- Single Root I/O Virtualization (SR-IOV): **Disabled**
 
 ## Installation
 
